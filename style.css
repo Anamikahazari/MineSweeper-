@@ -1,0 +1,65 @@
+body{
+    text-align: center;    
+    background-color: gray;
+}
+#grid{
+    margin: auto;
+    width: 555px ;
+    height:550px;
+}
+#grid div div{
+    border: 2px solid black;
+    height: 35px;
+    width: 35px;
+    background-color: aqua;
+    margin:3px;
+ 
+    /* float: inline-start; */
+    
+}
+#resetButton{
+    margin: auto;
+    display: inline-block;
+}
+
+
+#grid div {
+    display: inline-block;
+    /* margin: 1px; */
+   }
+/* .row{
+    display: inline-block;
+} */
+
+.bomb{
+    background-color: brown;
+}
+
+
+.btn{
+	background-color:#44c767;
+	/* border-radius:28px; */
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.btn:hover {
+	background-color:#5cbf2a;
+}
+
+#gameScore{
+    font-size: 30px;
+    color: white;
+    font-family: italic;
+}
+#resultDisplay{
+    color: red;
+    font-size: 22px;
+}
